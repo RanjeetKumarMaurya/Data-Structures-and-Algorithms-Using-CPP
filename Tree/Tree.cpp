@@ -59,7 +59,7 @@ TreeNode<int>* takeInputLevelWise(){
 //driver code
 int main(){
 	TreeNode<int>* root = takeInputLevelWise();
-	cout << root -> children[0] -> data;
+	cout << root -> data;
 }
 
 
